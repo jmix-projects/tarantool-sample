@@ -4,6 +4,8 @@
     <menu id="application" caption="msg://com.company.sample/menu.application" insertBefore="administration">
         <item screen="User.browse" caption="msg://com.company.sample.screen.user/UserBrowse.caption"/>
         <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
+        <item screen="ProductModel.browse"
+              caption="msg://com.company.sample.screen.productmodel/productModelBrowse.menu"/>
     </menu>
 
 </menu-config>

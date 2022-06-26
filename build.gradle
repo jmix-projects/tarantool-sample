@@ -33,6 +33,8 @@ dependencies {
     implementation 'io.jmix.datatools:jmix-datatools-starter'
     implementation 'io.jmix.datatools:jmix-datatools-ui-starter'
 
+    implementation 'io.tarantool:spring-data-tarantool:0.5.1'
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
     runtimeOnly 'org.hsqldb:hsqldb'
