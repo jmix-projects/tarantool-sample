@@ -8,6 +8,12 @@ Tarantool spaces are accessed using the [Spring Data Tarantool](https://github.c
 
 The sample project contains screens that display and save records to the Tarantool space called *products*.
 
+The [TarantoolConfiguration.java](src/main/java/com/company/sample/TarantoolConfiguration.java) configures Spring Data Tarantool connection settings.
+
+The [ProductRepository.java](src/main/java/com/company/sample/repository/ProductRepository.java) is a Spring Data repository that accesses Tarantool *products* space.
+
+The [Product.java](src/main/java/com/company/sample/dto/Product.java) is an instance that is saved into Tarantool space.
+
 ## Stating the Tarantool Instance
 
 Open the `tarantool` directory of the current project in the terminal.
